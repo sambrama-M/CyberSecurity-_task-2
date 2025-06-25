@@ -1,0 +1,92 @@
+                                                                         TASK-2 : Analyze a Phishing Email Sample
+
+
+ Objective:    Identify phishing characteristics in a suspicious email sample.
+ Tools:        Email client or saved email file (text), free online header analyzer.
+ Deliverables: A report listing phishing indicators found
+
+
+1.I have obtained a sample phishing email from "https://blog.usecure.io/the-most-common-examples-of-a-phishing-email" website from google .
+
+2.I have found one of the email phishing example which identify itself as HM Revenue and Customs this email contains The council tax scam
+ 
+  is a particularly frustrating attack, as it can use a variety of clever messages that convince you to part ways with your details.
+
+3. It seemd like a genuiune email address from where the email is recived.
+
+4. From: Hugo Enrique osorio <hugo23 5@hotmail.co uk Date: 18 October 2016 at 13:34:36 BST
+
+   To: youremailaddress@hotmail.co.uk
+
+   Subject: Support Center: Tax refund
+
+   HM Revenue & Customs
+
+   HMRC: H0928753
+
+   Hello
+
+   New Tax Calculation
+
+   We have determined that you are eligible to receive a tax refund of 209.27 GBP
+
+   Please submit the tax refund request
+
+   Please Click Refund and submit the tax refund request
+
+   Note: A refund can be delayed a variety of reasons, for example submitting invalid records or applying after deadline.
+
+5. after analysing from online header analyzer which i used is that MX tool box super tools i found nothing as a discrepancies.
+
+6. another thing which i have observed is that:
+   
+   From the UK Gov website, here are a few more examples of what a fraudulent tax email may contain:
+
+   It insists you’re in the wrong Council Tax band and are owed back payments on your Council Tax bill, when in fact your band is correct;
+
+   It says they’re from the local council or Valuation Office Agency (VOA) and ask for your bank details so they can provide a refund;
+
+   Claim that the VOA charges you to challenge your Council Tax band;
+
+   Claims that taxpayers must, by law, be represented by an agent to challenge their band.
+
+7.There was one suspicious link which is  attached in the mail.
+
+8. The email looks like a urgent call in a professional tone.
+
+9.when user clicked the link it is redirected to another page as it says to cange the password of outlook
+  
+  End users are encouraged to click the link inside the email, in order to be directed to a legitimate page (i.e., Microsoft)
+ 
+  where they are quickly able to update their password. But, any credentials entered into this page will be sent straight to the cyber criminals at hand. 
+
+10.there was no presence of any spelling or grammatical errors.
+
+
+Phishing Traits Found in the Email:
+
+1. Impersonation of a Trusted Entity:
+   Pretends to be from HM Revenue & Customs (HMRC).
+
+2. Urgent Call-to-Action:
+   Urges the recipient to claim a tax refund quickly.
+
+3. Suspicious Sender Address:
+   Email sent from a personal Hotmail address (`hugo235@hotmail.co.uk`), not an official HMRC domain.
+
+4. Deceptive Link:
+   Contains a link redirecting to a fake Outlook page to steal credentials.
+
+5. Too Good to Be True Offer:
+   Promises a refund of £209.27 without any formal verification.
+
+6. Professional Appearance:
+   No spelling or grammar mistakes, making it seem legitimate.
+
+7. Credential Theft Attempt:
+   Link leads to a fake login page to harvest user credentials.
+
+8. Lack of Personalization:
+   Uses generic greeting ("Hello") rather than addressing the recipient by name.
+
+
