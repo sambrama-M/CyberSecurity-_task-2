@@ -1,11 +1,8 @@
 # CyberSecurity_task-2
 
-
-Of course! Here's the same GitHub README summary without emojis and with a clean, human tone:
-
----
-
 ## Task 2: Phishing Email Investigation
+
+--
 
 ### Objective
 
